@@ -45,12 +45,9 @@ python ablation_study.py --list
 ### Run Training Configuration Ablation
 
 ```bash
-python training_ablation_simple.py
+python training_ablation.py
 ```
 
-Outputs:
-- `training_curves.png` - Training/validation loss curves
-- `training_ablation_results.csv` - Raw metrics
 
 ## Configuration
 
