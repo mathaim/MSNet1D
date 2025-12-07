@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project predicts hospital length of stay (LOS) following surgical operations using the VitalDB dataset. We developed MSNet1D, a multi-scale neural network architecture, and conducted systematic ablation studies comparing neural networks to gradient boosting methods.
+This project predicts hospital length of stay (LOS) following surgical operations using the VitalDB dataset. We developed MSNet1D, a multi-scale neural network architecture, and conducted systematic ablation studies comparing neural networks to gradient boosting methods. The base 1D‑MSNet architecture was introduced by Chen et al. (2023).
 
 ## Dataset
 
@@ -13,18 +13,6 @@ This project predicts hospital length of stay (LOS) following surgical operation
 - LOS range: 1 hour to 30 days (after filtering)
 - LOS quartiles: Q1=60.0h, Q2=108.5h, Q3=175.4h
 
-## Project Structure
-
-```
-
-
-├── Code/
-│   ├── config.py                   # Configuration and hyperparameters
-│   ├── preprocessing.py            # Spark-based data preprocessing
-│   ├── ablation_study.py           # Main ablation study script
-│   ├── training_ablation_simple.py # Training config ablation (loss, dropout)
-
-```
 
 ## Installation
 
